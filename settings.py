@@ -9,8 +9,8 @@ DEBUG_ENABLED = False
 DB_CONN = {
     "host": "127.0.0.1",
     "port": 3306,
-    "username": "iissi_user",
-    "password": "iissi$user",
+    "username": "iissi_user2",
+    "password": "iissi$user2",
     "database": "gallery",
 }
 
@@ -20,7 +20,7 @@ SQL_SCRIPTS = [
     "create_tables.sql",
     "create_views.sql",
     "populate_database.sql",
-]
+] 
 
 # The port in which the API and the web server will be deployed
 HTTP_PORT = 8080
