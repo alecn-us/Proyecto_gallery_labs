@@ -1,15 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyect_Gallery_Labs</title>
+    <link rel="stylesheet" href="/web/css/style.css">
+    <script src="/web/js/utils/include.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="/web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/web/css/font-awesome.min.css">
+    <script src="/web/js/libs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/web/js/index.js">
+    <title> My_Proyect_Gallery_Labs</title>
 </head>
-<body>
-    <head>
-        <h1>Halo parse</h1>
-    </head>
-    
-    
+<body class="dark">
+    <div id="page-header"></div>
+    <h2>Recent pictures</h2>
+    <a href="upload_picture.html"> Upload a new picture</a>
+    <div class="gallery-container">
+        <div class="photo-block">
+        <div class="photo-header-block">
+         <h2 class="photo-title">Samoyed</h2>
+        <h3 class="photo-score">Score: 4.52</h3>
+        </div>
+        <div class="photo-image-block">
+        <img class="photo-image" src="https://i.ibb.co/tY1Jcnc/wlZCfCv.jpg">
+        </div>
+        <div class="photo-metadata-block">
+        <p class="photo-description">A very good boy.</p>
+        </div>
+        <div class="photo-edit-block">
+        <button>Edit this photo</button>
+        <button>Delete this photo</button>
+        </div>
+        </div>
+        <div class="photo-block">
+            <div class="photo-header-block">
+             <h2 class="photo-title">JeyDoke</h2>
+            <h3 class="photo-score">Score: 1.20</h3>
+            </div>
+            <div class="photo-image-block">
+            <img class="photo-image" src="/web/images/descarga.jpeg">
+            </div>
+            <div class="photo-metadata-block">
+            <p class="photo-description">A typical Spanish homosexual.</p>
+            </div>
+            <div class="photo-edit-block">
+            <button>Edit this photo</button>
+            <button>Delete this photo</button>
+            </div>
+        </div>
+        <div class="photo-block">
+            <div class="photo-header-block">
+             <h2 class="photo-title">Goat</h2>
+            <h3 class="photo-score">Score: 3.98</h3>
+            </div>
+            <div class="photo-image-block">
+            <img class="photo-image" src="images/7e2e3787-bc74-4020-ab3f-0bb65c7881f4.jpg">
+            </div>
+            <div class="photo-metadata-block">
+            <p class="photo-description">Just a chill goat</p>
+            </div>
+            <div class="photo-edit-block">
+            <button>Edit this photo</button>
+            <button>Delete this photo</button>
+            </div>
+        </div>
+        <div class="photo-block">
+            <div class="photo-header-block">
+             <h2 class="photo-title">David</h2>
+            <h3 class="photo-score">Score: 2.60</h3>
+            </div>
+            <div class="photo-image-block">
+            <img class="photo-image" src="images/3902319c-e6ff-45f0-b586-41336ee7a930.jpg">
+            </div>
+            <div class="photo-metadata-block">
+            <p class="photo-description">David is calling you</p>
+            </div>
+            <div class="photo-edit-block">
+            <button>Edit this photo</button>
+            <button>Delete this photo</button>
+            </div>
+        </div>
+        <div class="photo-block">
+            <div class="photo-header-block">
+             <h2 class="photo-title">Adri</h2>
+            <h3 class="photo-score">Score: 1.94</h3>
+            </div>
+            <div class="photo-image-block">
+            <img class="photo-image" src="images/images.jpg">
+            </div>
+            <div class="photo-metadata-block">
+            <p class="photo-description">Adri have a big smile</p>
+            </div>
+            <div class="photo-edit-block">
+            <button>Edit this photo</button>
+            <button>Delete this photo</button>
+            </div>
+        </div>
+        <div class="photo-block">
+            <div class="photo-header-block">
+             <h2 class="photo-title">Aitana</h2>
+            <h3 class="photo-score">Score: 1.94</h3>
+            </div>
+            <div class="photo-image-block">
+            <img class="photo-image" src="images/why does this look like my science teacher__ 🤣.jpg">
+            </div>
+            <div class="photo-metadata-block">
+            <p class="photo-description">Aitana looks good</p>
+            </div>
+            <div class="photo-edit-block">
+            <button>Edit this photo</button>
+            <button>Delete this photo</button>
+            </div>
+        </div>
+        <div class="row text-center">
+            <button id="btnfecha" class="btn btn-light">Show date</button>
+
+        </div>
+    </div>
+    <script>
+        include("header.html", "#page-header");
+        </script>    
 </body>
 </html>
